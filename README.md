@@ -6,9 +6,9 @@ Welcome to my first portfolio that will showcase my work throughout my journey o
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Sass
+**Tech used:** HTML, CSS, JavaScript
 
-I used HTML5UP template to help create my portfolio! I changed some things around to match my vibe and added in some icons using *insert websites used here* and images using *insert websites used here*
+I decided to design and build my own portfolio site from scratch. I first started by writing down what I wanted to include in my portfolio site. I then began sketching out what I wanted it to look like using excalidraw.com and added some extra comments to reference back to. 
 
 
 
