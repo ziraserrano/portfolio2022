@@ -41,15 +41,14 @@ video {
 :root {
 	--font: "Quicksand", "Shadows Into Light", sans-serif;
 	--font-backup: "Source Sans Pro", "Roboto Condensed", sans-serif;
-	--main-brown: #704f4f;
-	--main-muave: #5195a7;
-     --main-black: #0000;
+	--main-teal: #5195a7;
+     --main-black: #000000;
 	--main-offwhite: #dbdbdb;
 }
 
 body {
 	font-family: var(--font);
-	background-color: var(--main-muave);
+	background: linear-gradient(#5195a7, #000000);
 	color: var(--main-offwhite);
 }
 a {
@@ -65,7 +64,7 @@ li {
 /*******************************************/
 
 footer {
-
+     background: linear-gradient(#000000);
 }
 
 /******************************************
