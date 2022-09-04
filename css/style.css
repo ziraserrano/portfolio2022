@@ -1,16 +1,33 @@
 /* Box Model Hack */
-* {
-     box-sizing: border-box;
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	height: 100vh;
+}
+
+img,
+video {
+	height: auto;
+	width: 100%;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
 
 .clear {
@@ -21,17 +38,31 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+:root {
+	--font: "Quicksand", "Shadows Into Light", sans-serif;
+	--font-backup: "Source Sans Pro", "Roboto Condensed", sans-serif;
+	--main-brown: #704f4f;
+	--main-muave: #5195a7;
+     --main-black: #0000;
+	--main-offwhite: #dbdbdb;
 }
 
+body {
+	font-family: var(--font);
+	background-color: var(--main-muave);
+	color: var(--main-offwhite);
+}
+a {
+	text-decoration: none;
+	color: var(--main-offwhite);
+}
+li {
+	list-style: none;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
-}
 
 footer {
 
@@ -40,3 +71,4 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
