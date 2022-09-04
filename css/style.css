@@ -41,15 +41,14 @@ video {
 :root {
 	--font: "Quicksand", "Shadows Into Light", sans-serif;
 	--font-backup: "Source Sans Pro", "Roboto Condensed", sans-serif;
-	--main-teal: #5195a7;
-     --main-black: #000000;
+	--main-black: #000000;
+     --main-softpurple: #76588f;
 	--main-offwhite: #dbdbdb;
 }
 
 body {
 	font-family: var(--font);
-	background: linear-gradient(#5195a7, #000000);
-	color: var(--main-offwhite);
+	background: linear-gradient(var(--main-offwhite), var(--main-softpurple));
 }
 a {
 	text-decoration: none;
@@ -64,10 +63,25 @@ li {
 /*******************************************/
 
 footer {
-     background: linear-gradient(#000000);
+     
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+main {
+     height: 100%;
+     width: 100%;
+     text-align: center;
+}
+
+main section{
+     display:flex;
+     flex-direction: column;
+}
+
+main h1 {
+     font-size: 5rem;
+}
 
