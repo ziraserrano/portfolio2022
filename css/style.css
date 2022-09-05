@@ -64,9 +64,6 @@ li {
 /* LAYOUT
 /*******************************************/
 
-footer {
-     
-}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -105,7 +102,7 @@ main h1 {
 main nav {
 	padding-top: 20px;
 	line-height: 2;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 }
 
 /*************
@@ -178,3 +175,33 @@ main nav {
 	border-radius: 10px;
 	outline: 2px solid black;
 }
+
+.projects h2{
+	font-size: 2rem;
+}
+
+/************************
+**** COFFEE CHAT ****
+************************/
+
+#coffee {
+	text-align: center;
+	color: #dbdbdb;
+	font-size: 1.4rem;
+}
+
+#coffee button {
+	height: 50px;
+	width: 20%;
+	border-style: none;
+	border-radius: 15px;
+}
+
+#coffee a {
+	color:#6569b0;
+}
+
+/************************
+**** FOOTER ****
+************************/
+
