@@ -95,7 +95,7 @@ main {
 main h1 {
 	color: var(--main-offwhite);
     font-size: 4.5rem;
-	line-height: 1.5;
+	line-height: 1.4;
 	margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ main nav {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
-	padding: 5%;
+	padding: 5% 2%;
 	line-height: 2;
 	text-align: right;
 	font-size: 1.4rem;
@@ -144,7 +144,7 @@ main nav {
 }
 
 #about-para {
-	height: 40%;
+	height: 35%;
 	width: 100%;
 	text-align: center;
 	font-size: 1.4rem;
@@ -175,9 +175,9 @@ main nav {
 
 #projects div {
 	height: 315px;
-	width: 200px;
+	width: 280px;
 	border-radius: 10px;
-	outline: 2px solid black;
+	outline: 2px solid #dbdbdb;
 }
 
 .projects h2{
@@ -197,8 +197,8 @@ main nav {
 }
 
 #coffee button {
-	height: 50px;
-	width: 20%;
+	height: 60px;
+	width: 25%;
 	border-style: none;
 	border-radius: 15px;
 }
@@ -217,6 +217,8 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: #dbdbdb;
+	font-size: 1.2rem;
 }
 
 .footer-icons {
@@ -228,7 +230,6 @@ footer div {
 }
 
 footer div i {
-	font-size: 1.5rem;
-	color: #dbdbdb;
+
 	padding: 10px;
 }
