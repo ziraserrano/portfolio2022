@@ -83,5 +83,6 @@ main section{
 
 main h1 {
      font-size: 5rem;
+	 margin: 0;
 }
 
