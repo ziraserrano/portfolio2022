@@ -12,6 +12,7 @@ html {
 html,
 body {
 	height: 100vh;
+	background: linear-gradient(var(--main-softpurple), var(--main-black));
 }
 
 img,
@@ -42,14 +43,15 @@ video {
 	--font: "Quicksand", "Shadows Into Light", sans-serif;
 	--font-backup: "Source Sans Pro", "Roboto Condensed", sans-serif;
 	--main-black: #000000;
-     --main-softpurple: #76588f;
+    --main-softpurple: #6569b0;
 	--main-offwhite: #dbdbdb;
 }
 
 body {
 	font-family: var(--font);
-	background: linear-gradient(var(--main-offwhite), var(--main-softpurple));
+	
 }
+
 a {
 	text-decoration: none;
 	color: var(--main-offwhite);
@@ -70,19 +72,33 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/*************
+**** MAIN ****
+**************/
+
 main {
-     height: 100%;
-     width: 100%;
-     text-align: center;
+	height: 100%;
+	width: 100%;
+	text-align: center;
 }
 
-main section{
-     display:flex;
-     flex-direction: column;
+.main-section{
+	position: fixed;
 }
 
 main h1 {
-     font-size: 5rem;
-	 margin: 0;
+	color: var(--main-offwhite);
+    font-size: 5rem;
+	line-height: 1.5;
+	margin: 0 auto;
 }
 
+main nav {
+	padding-top: 20px;
+	line-height: 2;
+	font-size: 1.4rem;
+}
+
+/*************
+**** ABOUT ****
+**************/
