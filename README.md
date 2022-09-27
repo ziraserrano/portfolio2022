@@ -1,14 +1,14 @@
 <!-- # Zira's Portfolio 2022
 Welcome to my first portfolio that will showcase my work throughout my journey of learning how to code! I am super excited to finally have an easier way to show my work to future employers, as well as connect with others in tech and those just beginning their journey in learning how to code.
 
-*link to project here*
-*screenshot?*
+*Link:* https://ziraserrano.netlify.app/
+<screenshot>
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript
+**Tech used:** HTML, CSS
 
-I decided to design and build my own portfolio site from scratch. I first started by writing down what I wanted to include in my portfolio site. I then began sketching out what I wanted it to look like using excalidraw.com and added some extra comments to reference back to. 
+I decided to design and build my own portfolio site from scratch. I first started by writing down what I wanted to include in my portfolio site. I then began sketching out what I wanted it to look like using excalidraw.com and added some extra comments to reference back to.
 
 
 
