@@ -173,11 +173,12 @@ main nav {
 }
 
 
-#projects div {
-	height: 315px;
-	width: 280px;
+#projects div,
+#projects img{
+	height: 350px;
+	width: 350px;
 	border-radius: 10px;
-	outline: 2px solid #dbdbdb;
+	outline: 1px solid #dbdbdb;
 }
 
 .projects h2{
