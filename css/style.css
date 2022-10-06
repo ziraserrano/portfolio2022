@@ -115,7 +115,7 @@ main nav {
 	display:flex;
 }
 
-.about div {
+.about div{
 	height: 100%;
 	width: 50%;
 	display: flex;
@@ -128,19 +128,19 @@ main nav {
 }
 
 .about div + div{
-	padding-top: 2%;
+	padding-top: 3%;
 }
 
 .about img {
     border-radius: 50%;
-    width: 30%;
+    width: 25%;
     height: auto;
-    padding-top: 30%;
 	border: 1px solid white;
 }
 
 .about-info i {
-	font-size: 1.4rem;
+	font-size: 1.5rem;
+	padding-left: 1.5%;
 }
 
 #about-para {
@@ -153,7 +153,7 @@ main nav {
 }
 
 #about-para p {
-	padding-top: 2%;
+	padding-top: 4%;
 }
 
 /************************
