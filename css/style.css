@@ -11,7 +11,6 @@ html {
 
 html,
 body {
-	height: 100vh;
 	background: var(--main-softpurple);
 }
 
@@ -181,6 +180,8 @@ main nav {
 	height: 300px;
 	width: 350px;
 	border-radius: 10px;
+	font-size: 1.2rem;
+	font-weight: bold;
 	/* outline: 1px solid #dbdbdb; */
 }
 
@@ -235,4 +236,61 @@ footer div {
 
 footer div i {
 	padding: 10px;
+}
+
+
+/************************
+**** RESPONSIVENESS ****
+************************/
+
+@media screen and (max-width: 390px){
+	.main-section{
+		padding-top: 40%;
+		text-align: center;
+	}
+	.main-section h1{
+		font-size: 2rem;
+	}
+
+	.main-section h2{
+		font-size: 1.5rem;
+	}
+	.main-section nav{
+		text-align: center;
+		font-size: 1.5;
+	}
+	.main-section nav ul{
+		padding: 0;
+	}
+	.about-info span{
+		font-size: 1.2rem;
+	}
+	.about img {
+		width: 70%;
+	}
+	.about div + div{
+		padding-top: 5%;
+		padding-left: 8%;
+	}
+	#about-para{
+		font-size: .8rem;
+	}
+	#projects{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#projects div{
+		margin-bottom: 12%;
+	}
+	#coffee button{
+		width: 80%;
+	}
+	footer div{
+		padding-left: 2%;
+		font-size: 1rem;
+	}
+	.footer-icons{
+		padding: 0;
+	}
 }
