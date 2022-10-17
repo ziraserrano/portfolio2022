@@ -178,7 +178,7 @@ main nav {
 	height: 300px;
 	width: 350px;
 	border-radius: 10px;
-	outline: 1px solid #dbdbdb;
+	/* outline: 1px solid #dbdbdb; */
 }
 
 .projects h2{
