@@ -92,17 +92,21 @@ main {
 	padding-top: 10%;
 }
 
-main h1 {
+main h1, h2 {
 	color: var(--main-offwhite);
     font-size: 4.5rem;
 	line-height: 1.4;
 	margin: 0 auto;
 }
 
+h2{
+	font-size: 3.5rem;
+}
+
 main nav {
-	padding-top: 20px;
+	padding-top: 80px;
 	line-height: 2;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 }
 
 /*************
