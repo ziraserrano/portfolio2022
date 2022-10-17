@@ -243,7 +243,7 @@ footer div i {
 **** RESPONSIVENESS ****
 ************************/
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 610px){
 	.main-section{
 		padding-top: 40%;
 		text-align: center;
@@ -266,14 +266,14 @@ footer div i {
 		font-size: 1.2rem;
 	}
 	.about img {
-		width: 70%;
+		width: 60%;
 	}
 	.about div + div{
 		padding-top: 5%;
 		padding-left: 8%;
 	}
 	#about-para{
-		font-size: .8rem;
+		font-size: 1rem;
 	}
 	#projects{
 		display: flex;
@@ -292,5 +292,19 @@ footer div i {
 	}
 	.footer-icons{
 		padding: 0;
+	}
+}
+
+@media (min-width: 610px) and (max-width: 1430px){
+	#projects{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#projects div{
+		margin-bottom: 12%;
+	}
+	#coffee button{
+		width: 50%;
 	}
 }
