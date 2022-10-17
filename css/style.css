@@ -124,7 +124,7 @@ main nav {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
-	padding: 5% 2%;
+	padding: 2% 2%;
 	line-height: 2;
 	text-align: right;
 	font-size: 1.4rem;
@@ -132,7 +132,7 @@ main nav {
 }
 
 .about div + div{
-	padding-top: 3%;
+	padding-top: 1%;
 }
 
 .about img {
@@ -153,20 +153,19 @@ main nav {
 	text-align: center;
 	font-size: 1.4rem;
 	color: #dbdbdb;
-	padding-top: 2%;
+	padding: 5% 10%;
+	line-height: 2;
 }
 
-#about-para p {
-	padding-top: 4%;
-}
 
 /************************
 **** RECENT PROJECTS ****
 ************************/
 
 .projects {
-	height: 50%;
+	height: 80%;
 	width: 100%;
+	padding-top: 30%;
 	text-align: center;
 	color: #dbdbdb;
 }
@@ -198,7 +197,7 @@ main nav {
 	text-align: center;
 	color: #dbdbdb;
 	font-size: 1.4rem;
-	padding: 5% 0;
+	padding: 20% 0;
 }
 
 #coffee button {
@@ -235,6 +234,5 @@ footer div {
 }
 
 footer div i {
-
 	padding: 10px;
 }
